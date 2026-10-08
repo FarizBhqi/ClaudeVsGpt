@@ -18,7 +18,8 @@ body{
   border-style: solid;
   border-color: red;
   border-radius: 10px;
-  margin: 20px;
+  margin-left: 50px;
+  margin-right: 50px;
  background-color: #80a1de
 }
 
@@ -32,10 +33,11 @@ font-weight: bolder;
 border-style: solid;
 border-radius: 5px}
 
-p{font-family: courier;
+p{font-family: Arial;
+  margin-left: 75px;
+  margin-right: 50px;
   
-background-color: white;
-border-top-left-radius: 20px};
+background-color: white;};
 
 
 marquee{
@@ -48,4 +50,8 @@ marquee{
 
 br{
   background-color: white;
+}
+
+img{
+  text-align: center;
 }
