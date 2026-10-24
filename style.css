@@ -2,40 +2,46 @@
 
   ul{text-align: center;
     list-style-type: none;
+    font-size: 16px;  
 padding: 0;
-margin: 20px;
 color: white;
 background-color: black;
-}
-li{
-  
-    display: inline;
-    margin-right: 50px;
-    border-left-style: solid
+font-family: Arial;
+overflow: hidden;
+position: sticky;
+margin-top: 0;
+top: 0;
+width: 100%;
+z-index: 100;
 }
 
 body{
-  border-style: solid;
-  border-color: red;
+
   border-radius: 10px;
   margin-left: 50px;
   margin-right: 50px;
- background-color: #80a1de
+ background-color: white;
 }
 
-  html {background-color: pink}
+  html {background-color: white;}
 
-h1{text-align: center;
+h1{text-align: left;
+  font-size: 32px;
  background-color: green;
+ color: white;
 margin-top: 10px;
-font-family: Georgia;
+font-family: Arial;
 font-weight: bolder;
-border-style: solid;
+margin-left: auto;
+margin-right: auto;
+margin-bottom: 0px;
+padding: 14px 16px;
 border-radius: 5px}
 
 p{font-family: Arial;
-  margin-left: 75px;
-  margin-right: 50px;
+  margin-left: 20px;
+  margin-right: 20px;
+  font-size:medium;
   
 background-color: white;};
 
@@ -53,5 +59,81 @@ br{
 }
 
 img{
-  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+
 }
+
+a:hover{
+  background-color: rgb(53, 79, 52);
+}
+
+ul li{
+  float: left;
+}
+
+ul li a {
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  padding: 14px 16px;
+  display: block;
+}
+
+.something{
+  h2{
+    font-weight: 100;
+  }
+}
+
+.layout_logo{
+  max-width: 800px;
+  margin: 0 auto;
+  margin-top: 128px;
+  margin-bottom: 128px;
+}
+
+.float-image{
+  float: left;
+  margin-right: 20px;
+  margin-bottom: 10px;
+  width: 50%;
+  height: auto;
+}
+
+.text-logo{
+  h2{
+    font-family: arial;
+  }
+  p{
+    font-family: Arial;
+    padding-left: 10px;
+  margin-left: px;
+  margin-right: 20px;
+  font-size:medium;
+  
+background-color: white;
+  }
+}
+
+.layout_logo:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.About-us{
+  margin-top:0;
+  h2{
+    font-family: Arial;
+    margin-left: 16px;
+    margin-top: 32px;
+  }
+}
+
+.Product{
+  margin-top: 64px;
+}
+
