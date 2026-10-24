@@ -42,20 +42,8 @@ p{font-family: Arial;
   margin-right: 20px;
   font-size:medium;
   
-background-color: white;};
+background-color: white;}
 
-
-marquee{
-  text-align:center;
-  margin: top left right bottom;
-  margin-left: 50px;
-  margin-right: 50px;
-  color: green
-}
-
-br{
-  background-color: white;
-}
 
 img{
   display: block;
